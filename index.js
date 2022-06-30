@@ -13,11 +13,11 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.send('Hola mi server en express');
+  res.send('Hola mi server en express por Dvid');
 });
 
 app.get('/nueva-ruta', (req, res) => {
-  res.send('Hola, soy una nueva ruta');
+  res.send('Hola, soy la ruta de David');
 });
 
 routerApi(app);
